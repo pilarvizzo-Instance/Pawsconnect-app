@@ -1,0 +1,66 @@
+[
+	{
+		"id": "MSG-101",
+		"sender": "Maria G.",
+		"message": "I found an injured stray dog on 22nd Street with a limping front leg. Can I bring him in right now?",
+		"category": "injured_stray",
+		"priority": "urgent",
+		"recommended_action": "Contact the sender promptly; confirm intake availability and direct them to a veterinarian or emergency animal service if needed."
+	},
+	{
+		"id": "MSG-102",
+		"sender": "Marcus T.",
+		"message": "My landlord is forcing me out by Friday and I cannot keep my senior cat. Need to surrender her.",
+		"category": "surrender_request",
+		"priority": "urgent",
+		"recommended_action": "Contact the sender promptly to discuss surrender options and timing."
+	},
+	{
+		"id": "MSG-103",
+		"sender": "Elena R.",
+		"message": "Submitted my adoption application for Drax yesterday, just checking on next steps and references.",
+		"category": "adoption_application_followup",
+		"priority": "normal",
+		"recommended_action": "Check the application status and explain the next steps and reference process."
+	},
+	{
+		"id": "MSG-104",
+		"sender": "David K.",
+		"message": "I have an acre yard and experience with anxious dogs. I want to offer temporary foster space this month.",
+		"category": "foster_offer",
+		"priority": "normal",
+		"recommended_action": "Thank the sender and share the foster screening and onboarding process."
+	},
+	{
+		"id": "MSG-105",
+		"sender": "Sarah J.",
+		"message": "Does Evy come already spayed and up to date on rabies vaccines before going home?",
+		"category": "adoption_question",
+		"priority": "normal",
+		"recommended_action": "Verify Evy's medical record and provide accurate spay and rabies vaccination details."
+	},
+	{
+		"id": "MSG-106",
+		"sender": "Local Vet Tech Club",
+		"message": "We have 4 student volunteers available Saturday morning to assist with dog walking or kennel cleaning.",
+		"category": "volunteer_offer",
+		"priority": "normal",
+		"recommended_action": "Confirm whether help is needed Saturday and share volunteer requirements and scheduling details."
+	},
+	{
+		"id": "MSG-107",
+		"sender": "Anonymous",
+		"message": "Hi, I have a purebred dog I might give away, or maybe I will adopt a second dog, not sure yet.",
+		"category": "unclear_inquiry",
+		"priority": "low",
+		"recommended_action": "Ask the sender to clarify whether they need rehoming guidance or are interested in adoption."
+	},
+	{
+		"id": "MSG-108",
+		"sender": "Promo Bot",
+		"message": "Increase your shelter website traffic by 300% guaranteed with our commercial search engine package!",
+		"category": "spam",
+		"priority": "low",
+		"recommended_action": "Mark as spam; no response needed."
+	}
+]

@@ -1,0 +1,202 @@
+{
+  "photo_to_profile": {
+    "drax": {
+      "pet_name": "Drax",
+      "species": "Dog",
+      "breed_guess": "American Bully / Pit Bull Terrier Mix",
+      "confidence": "high",
+      "estimated_age": "Adult (3-5 years)",
+      "personality": "Gentle, loyal, and quietly affectionate. Loves lounging on the couch and greeting trusted companions with a steady tail wag.",
+      "care_requirements": "Moderate daily walks, comfortable indoor bed, secure fenced yard, and positive reinforcement training.",
+      "adoption_fee_tier": "Standard Adult ($125)",
+      "human_review": false
+    },
+    "evy": {
+      "pet_name": "Evy",
+      "species": "Dog",
+      "breed_guess": "Chihuahua / Terrier Mix",
+      "confidence": "high",
+      "estimated_age": "Young Adult (1-2 years)",
+      "personality": "Spirited, alert, and full of curious energy. Thrives on interactive play and curling up under warm blankets.",
+      "care_requirements": "Regular mental stimulation, brisk neighborhood strolls, secure harness, and warm indoor bedding.",
+      "adoption_fee_tier": "Standard Adult ($125)",
+      "human_review": false
+    },
+    "spadie": {
+      "pet_name": "Spadie",
+      "species": "Cat",
+      "breed_guess": "Domestic Shorthair",
+      "confidence": "high",
+      "estimated_age": "Adult (2-4 years)",
+      "personality": "Inquisitive, serene, and observant. Enjoys cozy sunny window perches, gentle chin scratches, and peaceful afternoon naps.",
+      "care_requirements": "Indoor only, scratching post, regular interactive play, and quiet decompression space.",
+      "adoption_fee_tier": "Standard Feline ($75)",
+      "human_review": false
+    },
+    "dakota": {
+      "pet_name": "Dakota",
+      "species": "Dog",
+      "breed_guess": "Mixed Breed (Visual details obscured)",
+      "confidence": "low",
+      "estimated_age": "Under Evaluation",
+      "personality": "Motion blur and lighting conditions obscure distinctive physical traits. In-person behavioral assessment required.",
+      "care_requirements": "Requires standard shelter intake evaluation before setting household placement parameters.",
+      "adoption_fee_tier": "Evaluation Tier ($0)",
+      "human_review": true
+    },
+    "toby": {
+      "pet_name": "Toby",
+      "species": "Dog (Partial/Unclear Frame)",
+      "breed_guess": "Unconfirmed (Low Confidence)",
+      "confidence": "low",
+      "estimated_age": "Unknown",
+      "personality": "Subject partially framed or distance too great for accurate automated vision extraction. Requires staff verification.",
+      "care_requirements": "Staff follow-up required to confirm animal health and clear identification.",
+      "adoption_fee_tier": "Pending Review ($0)",
+      "human_review": true
+    }
+  },
+  "triage_queue": [
+    {
+      "id": "MSG-101",
+      "sender": "Maria G.",
+      "message": "I found an injured stray dog on 22nd Street with a limping front leg. Can I bring him in right now?",
+      "category": "surrender request",
+      "urgency": "critical",
+      "routing": "Intake & Veterinary Team",
+      "summary": "Injured stray canine with suspected leg trauma requires immediate intake.",
+      "human_review": false
+    },
+    {
+      "id": "MSG-102",
+      "sender": "Marcus T.",
+      "message": "My landlord is forcing me out by Friday and I cannot keep my senior cat. Need to surrender her.",
+      "category": "surrender request",
+      "urgency": "high",
+      "routing": "Owner Surrender Coordinator",
+      "summary": "Urgent surrender request for senior cat facing imminent housing displacement.",
+      "human_review": false
+    },
+    {
+      "id": "MSG-103",
+      "sender": "Elena R.",
+      "message": "Submitted my adoption application for Drax yesterday, just checking on next steps and references.",
+      "category": "adoption application",
+      "urgency": "medium",
+      "routing": "Adoption Processing Desk",
+      "summary": "Follow-up status inquiry regarding submitted adoption application for Drax.",
+      "human_review": false
+    },
+    {
+      "id": "MSG-104",
+      "sender": "David K.",
+      "message": "I have an acre yard and experience with anxious dogs. I want to offer temporary foster space this month.",
+      "category": "volunteer or foster offer",
+      "urgency": "medium",
+      "routing": "Foster Coordinator",
+      "summary": "Offer from experienced volunteer to provide temporary foster care.",
+      "human_review": false
+    },
+    {
+      "id": "MSG-105",
+      "sender": "Sarah J.",
+      "message": "Does Evy come already spayed and up to date on rabies vaccines before going home?",
+      "category": "medical question",
+      "urgency": "low",
+      "routing": "Medical Records Staff",
+      "summary": "Routine medical inquiry regarding spay status and vaccination records for Evy.",
+      "human_review": false
+    },
+    {
+      "id": "MSG-106",
+      "sender": "Local Vet Tech Club",
+      "message": "We have 4 student volunteers available Saturday morning to assist with dog walking or kennel cleaning.",
+      "category": "volunteer or foster offer",
+      "urgency": "low",
+      "routing": "Volunteer Coordinator",
+      "summary": "Student group offering weekend volunteer support for shelter grounds.",
+      "human_review": false
+    },
+    {
+      "id": "MSG-107",
+      "sender": "Anonymous",
+      "message": "Hi, I have a purebred dog I might give away, or maybe I will adopt a second dog, not sure yet.",
+      "category": "ambiguous inquiry",
+      "urgency": "medium",
+      "routing": "General Communications / Triage Desk",
+      "summary": "Unclear inquiry combining potential owner surrender with exploratory adoption interest.",
+      "human_review": true
+    },
+    {
+      "id": "MSG-108",
+      "sender": "Promo Bot",
+      "message": "Increase your shelter website traffic by 300% guaranteed with our commercial search engine package!",
+      "category": "spam or other",
+      "urgency": "none",
+      "routing": "IT & Spam Filter",
+      "summary": "Commercial marketing solicitation for search engine promotion.",
+      "human_review": false
+    }
+  ],
+  "counselor_demo": {
+    "valid_query": {
+      "adopter_message": "Can I bring my resident dog to meet Drax before finalizing the adoption?",
+      "draft_reply": "Yes! We strongly recommend a supervised meet-and-greet between resident dogs and Drax at the shelter. Our adoption counselors coordinate these sessions in our secure outdoor play yard to evaluate body language and confirm compatibility before finalizing any adoption.",
+      "judge_verdict": "PASS",
+      "judge_notes": "Reply is within adoption scope, accurately represents shelter adoption protocol, maintains a warm and honest tone, and contains no veterinary advice or false availability guarantees.",
+      "requires_human_escalation": false
+    },
+    "caught_query": {
+      "adopter_message": "My puppy is vomiting yellow bile and will not drink water. What medication should I give her?",
+      "draft_reply": "You should try giving her a half dose of over-the-counter famotidine and boiled rice to settle her stomach.",
+      "judge_verdict": "REVISE",
+      "judge_notes": "CRITICAL VIOLATION: Draft reply dispenses specific veterinary medical advice and medication dosing. Medical emergencies must immediately escalate to a licensed veterinarian.",
+      "requires_human_escalation": true,
+      "escalation_message": "PawsConnect counselors are prohibited from providing medical diagnoses or drug dosing. Please contact your local emergency veterinary clinic or primary veterinarian immediately for urgent symptoms."
+    }
+  },
+  "match_demo": {
+    "household_profile": "Lives in a 2nd-floor 750 sq ft apartment. Works hybrid (away 5 hours/day). No children, no other pets. Enjoys daily 45-minute neighborhood walks and quiet indoor evenings.",
+    "pet_evaluated": "Drax (American Bully Mix, Adult, Calm Demeanor)",
+    "runs": [
+      {
+        "run_id": 1,
+        "fit_rating": "Strong Fit",
+        "reasoning": "Drax has a calm, moderate-energy profile suitable for apartment living provided he receives daily neighborhood walks. The 5-hour absence is well within an adult canine tolerance threshold. The lack of other pets or young children eliminates multi-animal boundary conflicts."
+      },
+      {
+        "run_id": 2,
+        "fit_rating": "Strong Fit",
+        "reasoning": "Apartment dimensions are sufficient because the adopter provides 45 minutes of dedicated daily walking. Drax exhibits gentle, steady indoor temperament. Household schedule provides reliable companionship without extreme isolation."
+      },
+      {
+        "run_id": 3,
+        "fit_rating": "Moderate Fit",
+        "reasoning": "While Drax is calm indoors, multi-family apartment hallways require consistent leash control and reliable desensitization to neighbor encounters. While compatible, an initial acclimation plan is advised for stairs and corridor noise."
+      }
+    ],
+    "majority_verdict": "Strong Fit (2 of 3 runs)",
+    "top_reasons": [
+      "Moderate exercise routine (45-min daily walk) matches Drax's exercise needs.",
+      "5-hour workday absence is manageable for an adult dog.",
+      "Calm single-occupant household prevents overstimulation."
+    ],
+    "top_concern": "Apartment hallway encounters require proactive leash control during initial decompression."
+  },
+  "innovation_feature": {
+    "title": "Shelter Intake Medical & Quarantine Sentinel",
+    "description": "Scans photographed intake paperwork, rabies certificates, and vaccination cards to extract vital health records, calculate rabies expiration, and flag animals requiring quarantine isolation.",
+    "sample_record": {
+      "animal_id": "A-8841",
+      "pet_name": "Drax",
+      "intake_date": "2026-11-01",
+      "rabies_vaccinated": true,
+      "rabies_expiry": "2027-10-15",
+      "dhpp_vaccinated": true,
+      "bordetella_vaccinated": false,
+      "quarantine_recommended": false,
+      "quarantine_reason": "Vaccination history current; no active bite history or contagious respiratory symptoms noted.",
+      "human_review_flag": false
+    }
+  }
+}
